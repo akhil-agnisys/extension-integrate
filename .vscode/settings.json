@@ -1,0 +1,9 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/.vscode"
+    ],
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/.vscode"
+    ],
+    "python.languageServer": "Pylance"
+}

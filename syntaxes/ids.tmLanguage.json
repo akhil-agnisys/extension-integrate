@@ -1,0 +1,32 @@
+{
+    "scopeName": "source.ids",
+    "patterns": [
+        {
+            "name": "keyword.function.ids",
+            "match": "\\b(?:soc_create|soc_add|soc_delete|soc_connect|soc_connect_auto|soc_disconnect|soc_move|soc_flatten|soc_read|soc_generate|soc_graph|soc_savegraph|soc_dump_csv|soc_library|soc_set|soc_report|soc_get_block|soc_get_bus|soc_get_port|soc_clean)\\b"
+        },
+        {
+            "name": "variable.parameter.ids",
+            "match": "\\b(?:a|type|name|inst|port|param|bus|bus_type|define|logic|mod_port|wire|parent|repeat|ifdef|ifndef|vendor|library|version|vlnv|abs_vlnv|source|dest|wire|tie|condition|interface|file|verbosity|code|fan_in|fan_out|unconnected|vendor|library|version|created_by|depth|exclude|port_name_format|dir|y|search_path|file_list|include|inc_dir|out|name)\\b"
+        },
+        {
+            "name": "comment.line.ids",
+            "begin": "#",
+            "end": "$"
+        },
+        {
+            "name": "string.quoted.double.ids",
+            "begin": "\"",
+            "end": "\""
+        },
+        {
+            "name": "constant.numeric.ids",
+            "match": "\\b\\d+\\b"
+        }
+    ],
+    "repository": {},
+    "scopeName": "source.ids",
+    "fileTypes": ["ids"],
+    "name": "IDS Language",
+    "uuid": "12345678-1234-1234-1234-123456789abc"
+}
